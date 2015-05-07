@@ -1,0 +1,14 @@
+Générer getters and setters:
+php app/console doctrine:generate:entities AppBundle
+
+Créer une table, avec son entité:
+php app/console doctrine:generate:form AppBundle:NomDeLaTable
+
+Modifier Entité dans la base:
+php app/console doctrine:schema:update --force
+
+réinstaller composer:
+composer update
+
+
+
