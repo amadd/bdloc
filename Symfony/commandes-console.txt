@@ -10,5 +10,8 @@ php app/console doctrine:schema:update --force
 réinstaller composer:
 composer update
 
+installer vendor:
+composer install
+
 
 
