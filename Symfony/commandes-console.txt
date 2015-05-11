@@ -13,5 +13,8 @@ composer update
 installer vendor:
 composer install
 
+créer projet symfony(Se mettre à la racine de l'endroit où on veut créer le projet):
+php composer create-project symfony/framework-standard-edition Symfony 2.3.0
+
 
 
